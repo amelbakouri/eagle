@@ -160,7 +160,7 @@ div.addEventListener("click", ()=>{
     console.log("j'ai cliqué");
     // document.body.style.background = `rgb(${getNumber()}, ${getNumber()}, ${getNumber()})`;
     menu.classList.toggle('active');
-    var audio = new Audio("sound/son.mp4");
+    var audio = new Audio("son.mp4");
 
     // Jouez le son
     audio.play();
